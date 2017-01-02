@@ -17,7 +17,9 @@
     "css-loader": "^0.26.1"
   },
   "scripts": {
-    "build": "webpack --progress --hide-modules"
+    "build:bad": "webpack --config webpack.bad.config.js --progress --hide-modules",
+    "build:good": "./scripts/sass.sh && webpack --config webpack.good.config.js --progress --hide-modules",
+    "clean": "rm -rf ./build ./dist"
   },
   "author": "",
   "license": "ISC"
