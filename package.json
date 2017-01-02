@@ -1,0 +1,24 @@
+{
+  "name": "stack-too-deep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "bootswatch": "^3.3.7",
+    "file-loader": "^0.9.0",
+    "node-sass": "^4.1.1",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.1.0-beta.0",
+    "webpack-dev-server": "^2.1.0-beta.12"
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.1"
+  },
+  "scripts": {
+    "build": "webpack --progress --hide-modules"
+  },
+  "author": "",
+  "license": "ISC"
+}

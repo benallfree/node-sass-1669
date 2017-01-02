@@ -1,0 +1,175 @@
+body.admin
+{
+  position: relative;
+  top: 70px;
+
+  &.dragging, &.dragging * {
+    cursor: move !important;
+  }
+
+  .sorted_table
+  {
+    tr {
+      cursor: pointer;
+      &.placeholder
+      {
+        display: block;
+        background: red;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        border: none;
+        &:before
+        {
+          content: "";
+          position: absolute;
+          width: 0;
+          height: 0;
+          border: 5px solid transparent;
+          border-left-color: red;
+          margin-top: -5px;
+          left: -5px;
+          border-right: none;
+        }
+      }
+    }
+  }
+
+  .dragged {
+    position: absolute;
+    opacity: 0.5;
+    z-index: 2000;
+  }
+
+  .editor-toolbar
+  {
+    opacity: 1;
+    background-color: $body-bg;
+    &:hover
+    {
+      opacity: 1;
+      background-color: $body-bg;
+    };
+    &.fullscreen
+    {
+      z-index: 1001;
+    }
+  }
+
+  .CodeMirror-fullscreen
+  {
+    z-index: 1001;
+  }
+
+  .editor-preview-side
+  {
+    h1, h2, h3, h4, h5, h6
+    {
+      color: $gray-base;
+    }
+  }
+
+  .pagination
+  {
+    display: block;
+    clear: both;
+  }
+
+  h1
+  {
+    font-size: 24px;
+  }
+  h2
+  {
+    font-size: 20px;
+  }
+
+
+  textarea
+  {
+    width: 100%;
+  }
+
+
+  ul
+  {
+    li
+    {
+      a.btn
+      {
+        margin: 3px;
+      }
+    }
+  }
+
+
+  .form-section
+  {
+//    background-color: #1B1B1B;
+    margin: 5px;
+//    border: 1px solid darkgray;
+    border-radius: 3px;
+    padding: 5px;
+    label
+    {
+//      color: #4D89FF;
+    }
+
+  }
+
+  .links
+  {
+    img
+    {
+      max-width: 75px;
+    }
+
+    .glyphicon-heart:hover
+    {
+      cursor: pointer;
+    }
+
+    .glyphicon.glyphicon-heart
+    {
+      color: $gray-light;
+    }
+    .glyphicon.glyphicon-heart.selected
+    {
+      color: $brand-success;
+    }
+
+  }
+
+
+
+  .tags
+  {
+    .tag
+    {
+      display: inline-block;
+//      background-color: #d2cfcf;
+      padding: 5px;
+      border-radius: 3px;
+    }
+  }
+
+
+  .tab-content
+  {
+    padding: 10px;
+    border-left: 1px solid $table-border-color;
+    border-bottom: 1px solid $table-border-color;
+    border-right: 1px solid $table-border-color;
+    border-top: 1px solid $table-border-color;
+    position: relative;
+    top: -1px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .nav-tabs li
+  {
+    z-index: 10;
+  }
+
+}

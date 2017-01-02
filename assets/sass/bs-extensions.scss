@@ -1,0 +1,47 @@
+.row.no-pad {
+  margin-right:0;
+  margin-left:0;
+}
+.row.no-pad > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+.row.sm-pad {
+  margin-right:0;
+  margin-left:0;
+}
+.row.sm-pad > [class*='col-'] {
+  padding-right:1px;
+  padding-left:1px;
+}
+
+
+.table-borderless
+{
+  tbody
+  {
+    tr
+    {
+      td, th
+      {
+        border: none;
+      }
+    }
+  }
+}
+
+.table-narrow, .table-compact
+{
+  width: initial;
+}
+
+.table-transparent
+{
+  background-color: transparent;
+}
+
+.fit
+{
+  width: 100%;
+}

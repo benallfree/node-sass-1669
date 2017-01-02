@@ -1,0 +1,207 @@
+.newsletter-editor
+{
+  margin-bottom: 10px;
+  border: 1px solid $gray-lighter;
+  padding: 3px;
+  padding-bottom: 7px;  
+  .control
+  {
+    display: inline;
+  }
+}
+
+.newsletter
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 16pt;
+	color: #666;
+  
+  h1, h2 {
+  	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+  }
+  h3 {
+  	font-weight: bold;
+  	font-family: Helvetica, Arial, sans-serif;
+  	font-size: 18px;
+  	color: #FF9900;
+  	margin: 24px 0 0 0;
+  	text-transform: uppercase;
+  	font-style:italic;
+    clear: both;
+  }
+
+  ul, li {
+  	font-family: Helvetica, Arial, sans-serif;
+  	font-size: 15px;
+  	line-height: 16pt;
+  }
+  h1 {
+  	font-size: 22px;
+  	color: black;
+  }
+  a {
+  	text-decoration: none;
+  	color: #FF9900;
+  }
+  .lists {
+  	list-style-type: none;
+  	padding-left: 20px;
+  }
+  .lists li {
+    margin-right: 15px;
+    margin-left: 0px;
+  }
+  .lists a {
+  	color: #4467ac;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    display: block;  
+  }
+  .endlinks {
+  	font-size: 12px;
+  	text-transform: uppercase;
+  	font-family: Helvetica, Arial, sans-serif;
+  	color: black;
+  }
+  .dates {
+  	font-size: 12px;
+  	text-transform: uppercase;
+  	font-family: Helvetica, Arial, sans-serif;
+  	color: black;
+  }
+  .endlinks a {
+  	color: #FF9900;
+  	font-size: smaller;
+  	font-weight: normal;
+  }
+  .halfblock {
+  	float: left;
+  	width: 45%;
+  	padding: 20px;
+  	display: inline-block;
+  }
+  .eventblock {
+  	float: left;
+  	width: 45%;
+  	padding: 10px;
+  	display: inline-block;
+  	margin: 0;
+  	font-family: Helvetica, Arial, sans-serif;
+  	font-size: 15px;
+  	line-height: 14pt;
+  	color: #666;
+  }
+  .fullblock {
+  	float: left;
+  	width: 90%;
+  	padding: 20px;
+  	display: inline-block;
+  	clear: both;
+  }
+  .adblock {
+  	max-width:760px;
+  	width: 100%;
+  	display:inline-block;
+  	margin:20px 20px 0 0;
+  	font-size: 12px;
+  	font-family: Helvetica, Arial, sans-serif;
+  	color: gray;
+  }
+  .adblock a {
+  	color:#4467ac;
+  }
+  .adblock h1 {
+  	color: #666;
+  	font-family: Helvetica, Arial, sans-serif;
+  	font-size: 15px;
+  	margin-bottom:0;
+  	padding-bottom:0;
+  }
+  .adblock p {
+  	margin-top:0;
+  	padding-top:0;
+  }
+  .adblock img {
+  	width:139px;
+  	height:139px;
+  }
+  .block {
+  	padding: 20px;
+  	border-radius: 5px;
+  	max-width: 760px;
+  	display: inline-block;
+  	background-color: #F6F6F6;
+  	overflow: hidden;
+  	clear: both;
+  }
+  .buttonlinks {
+    line-height: 30px;
+    .buttons {
+    	background-color: #FF9900;
+    	border-radius: 5px;
+    	padding: 7px 15px;
+    	text-transform: uppercase;
+    	color: white;
+    	font-size: 12px;
+    	font-family: Helvetica, Arial, sans-serif;
+    }
+  }
+  .articlehead {
+  	margin-top: 0;
+  	padding-top: 0;
+  	color: black;
+  }
+  .articlehead a {
+  	color: #4467ac;
+  }
+  .articleimage {
+  	width: 160px;
+  	height: 160px;
+  }
+  .sponsored {
+  	float: right;
+  	clear: both;
+  	font-size: 10px;
+  	text-transform: uppercase;
+  	font-family: Helvetica, Arial, sans-serif;
+  	color: #CCC;
+  }
+  .sponsorblock {
+  	width: 100%;
+  	max-width: 800px;
+  	display: inline-block;
+  	border-top: solid 3px black;
+  	margin: 30px 0 10px;
+  	padding: 15px 0;
+  	clear: both;
+  }
+  .sponsorblock h3
+  {
+    clear: initial;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .footer {
+  	font-size:10px;
+  	color:#999;
+  }
+  .preview
+  {
+    border: 1px solid #cecece;
+    border-radius: 3px;
+    padding: 3px;
+    margin-top: 5px;
+  }
+  .preview .notice
+  {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #dedede;
+    margin: -3px;
+    padding: 3px;
+    font-size: 10pt;
+    color: #ce8800;
+    font-weight: bold;
+  }
+}
