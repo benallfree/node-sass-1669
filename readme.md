@@ -1,4 +1,4 @@
-This demonstrates issue [1669](https://github.com/sass/node-sass/issues/1669) for `node-sass` and https://github.com/jtangelder/sass-loader/issues/333 in `sass-loader`.
+This demonstrates issue [1669](https://github.com/sass/node-sass/issues/1669) for `node-sass` and [333](https://github.com/jtangelder/sass-loader/issues/333) in `sass-loader`.
 
 YouTube walkthrough:
 
